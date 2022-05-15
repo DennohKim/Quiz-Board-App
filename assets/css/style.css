@@ -90,3 +90,22 @@ section {
   box-shadow: 1px 5px 39px 0px rgba(36, 5, 84, 0.75);
   z-index: 10;
 }
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 300;
+}
+
+h3 > span {
+  color: #ebfd37;
+}
+
+.main-question-container {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-top: 2rem;
+  align-self: center;
+}
