@@ -111,22 +111,51 @@ h2 {
 }
 
 ul {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    justify-self: space-between;
-    margin: 3rem 0;
-  }
-  
-  .answer-container {
-    width: 25%;
-  }
-  ul li {
-    list-style-type: none;
-    font-size: 1.4rem;
-    font-weight: 600;
-    /* background-color: #fff; */
-    color: #240554;
-    text-align: center;
-    cursor: pointer;
-  }
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  justify-self: space-between;
+  margin: 3rem 0;
+}
+
+.answer-container {
+  width: 25%;
+}
+ul li {
+  list-style-type: none;
+  font-size: 1.4rem;
+  font-weight: 600;
+  /* background-color: #fff; */
+  color: #240554;
+  text-align: center;
+  cursor: pointer;
+}
+
+.answer-list label,
+.answer-list input {
+  display: block;
+  background-color: #fff;
+  list-style-type: none;
+  padding: 1.4rem 4rem;
+  border-radius: 1rem;
+}
+
+.answer-list input[type="radio"] {
+  opacity: 0.01;
+  z-index: 100;
+}
+
+.answer-list input[type="radio"]:checked + label,
+.Checked + label {
+  background: #ebfd37;
+}
+
+.answer-list label {
+  /* border: 1px solid #ccc; */
+  cursor: pointer;
+  z-index: 90;
+}
+
+.answer-list label:hover {
+  background: #f5ff87;
+}
