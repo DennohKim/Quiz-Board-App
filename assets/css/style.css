@@ -191,3 +191,13 @@ p {
   bottom: 4vh;
   right: 2vw;
 }
+
+.premier-league-logo {
+  height: 8rem;
+}
+
+.sadio-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
