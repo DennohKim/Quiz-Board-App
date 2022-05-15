@@ -159,3 +159,19 @@ ul li {
 .answer-list label:hover {
   background: #f5ff87;
 }
+
+.submit-btn {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 1.4rem;
+  background: none;
+  border: 2px solid #ecfd37;
+  padding: 1.2rem 0;
+  box-shadow: 0 13px 31px -12px rgba(36, 5, 84, 0.69);
+  border-radius: 0.8rem;
+  color: #ecfd37;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 3rem;
+  text-align: center;
+}
