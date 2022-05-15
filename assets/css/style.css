@@ -55,3 +55,18 @@ section {
   background-repeat: none;
   overflow: scroll;
 }
+
+/* PL QUESTIONS SECTION  */
+
+.header__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.6rem;
+    padding: 5rem 0;
+  }
+  .header__title-container {
+    width: 65%;
+    margin: 0 auto;
+  }
