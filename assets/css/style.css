@@ -303,55 +303,117 @@ p {
 /* TABLET SCREENS */
 
 @media screen and (max-width: 758px) {
-    .container {
-      width: 70%;
-      margin: 0 auto;
-    }
-  
-    h3 {
-      font-size: 1.4rem;
-      font-weight: 300;
-    }
-    h2 {
-      font-size: 1.6rem;
-      padding-top: 2rem;
-    }
-  
-    .header__title-container {
-      width: 100%;
-      margin: 0 auto;
-    }
-  
-    .header__title {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      text-align: center;
-      font-size: 2.4rem;
-      padding: 5rem 0;
-    }
-  
-    .answer-list label,
-    .answer-list input {
-      padding: 1.4rem 2rem;
-    }
-  
-    ul li {
-      font-size: 1.2rem;
-    }
-    .answer-container {
-      width: 50%;
-    }
-  
-    .submit-btn {
-      font-size: 1.4rem;
-    }
-    .premier-league-logo {
-      height: 6rem;
-      /* width: 3rem; */
-    }
-    .sadio-box > img {
-      height: 40vh;
-    
-    }
+  .container {
+    width: 70%;
+    margin: 0 auto;
   }
+
+  h3 {
+    font-size: 1.4rem;
+    font-weight: 300;
+  }
+  h2 {
+    font-size: 1.6rem;
+    padding-top: 2rem;
+  }
+
+  .header__title-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .header__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2.4rem;
+    padding: 5rem 0;
+  }
+
+  .answer-list label,
+  .answer-list input {
+    padding: 1.4rem 2rem;
+  }
+
+  ul li {
+    font-size: 1.2rem;
+  }
+  .answer-container {
+    width: 50%;
+  }
+
+  .submit-btn {
+    font-size: 1.4rem;
+  }
+  .premier-league-logo {
+    height: 6rem;
+    /* width: 3rem; */
+  }
+  .sadio-box > img {
+    height: 40vh;
+  }
+}
+
+/* MOBILE DEVICES */
+@media screen and (max-width: 596px) {
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 300;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    padding-top: 2rem;
+  }
+
+  .header__title-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    font-size: 1rem;
+  }
+
+  .header__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 2rem;
+    padding: 4rem 0;
+  }
+
+  .answer-list label,
+  .answer-list input {
+    padding: 1.4rem 1.2rem;
+  }
+
+  ul li {
+    font-size: 1rem;
+  }
+  .answer-container {
+    width: 50%;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+  .premier-league-logo {
+    height: 4rem;
+    /* width: 3rem; */
+  }
+  .sadio-box > img {
+    height: 25vh;
+  }
+  .reload-btn {
+    width: 24rem;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .reload-btn {
+    width: 18rem;
+  }
+}
