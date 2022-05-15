@@ -140,10 +140,21 @@ function loadQuestion() {
   answerD.innerText = currentQuestionDetails.d;
 }
 
-
 //Function deselects all buttons from the start of a quiz
 function deselectAnswers() {
-    //Loops through all answers and deselects
-    answerElements.forEach((answerElement) => (answerElement.checked = false));
-  }
-  
+  //Loops through all answers and deselects
+  answerElements.forEach((answerElement) => (answerElement.checked = false));
+}
+
+//Function checks which button is selected
+function getSelected() {
+  let answer;
+
+  answerElements.forEach((answerElement) => {
+    if (answerElement.checked) {
+      answer = answerElement.id;
+    }
+  });
+
+  return answer;
+}
