@@ -227,3 +227,75 @@ p {
   background-color: #ecfd37;
   font-weight: 600;
 }
+
+/* ====================
+    MEDIA QUERIES
+=======================
+*/
+
+/* LAPTOP SCREENS */
+@media screen and (max-width: 1180px) {
+  .answer-list label,
+  .answer-list input {
+    display: block;
+    background-color: #fff;
+    list-style-type: none;
+    padding: 1.4rem 4rem;
+    border-radius: 1rem;
+  }
+  .answer-container {
+    width: 30%;
+  }
+  .sadio-box > img {
+    height: 65vh;
+  }
+}
+
+@media screen and (max-width: 996px) {
+  h3 {
+    font-size: 1.6rem;
+    font-weight: 300;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    padding-top: 2rem;
+  }
+
+  .header__title-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .header__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3.2rem;
+    padding: 6rem 0;
+  }
+
+  .answer-list label,
+  .answer-list input {
+    display: block;
+    background-color: #fff;
+    list-style-type: none;
+    padding: 1.4rem 4rem;
+    border-radius: 1rem;
+  }
+  .answer-container {
+    width: 35%;
+  }
+
+  ul {
+    margin-bottom: 2.4rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+  }
+  .sadio-box > img {
+    height: 60vh;
+  }
+}
