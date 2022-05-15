@@ -13,6 +13,7 @@ The Quiz board App if meant for High School Students learning Javascript.
 ## Figma Design
 
 Use the link to find the project design for the project
+Figma Design: https://www.figma.com/file/0GcFH0dKphS0g2L7pa5KNl/Quiz-Board-Design-(Copy)?node-id=109%3A396
 ## Setup/Installation Requirements
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
