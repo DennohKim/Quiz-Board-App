@@ -6,15 +6,10 @@ FONT FAMILY
 COLORS
 
 #FFFFFF
-#240554
-#EBFD37
-#D7D7D7
-#F84995
-#BF1137
-#7D0C43
-#03DDB8
 
+#F7DF1E
 
+#019AA8
 =============*/
 
 /* ==========
@@ -35,6 +30,7 @@ html {
 body {
   font-family: "Jost";
   color: #ffffff;
+ 
   /* min-width: 900px; */
   /* height: 100%; */
   /* clip-path: polygon(85% 0, 100% 0, 100% 100%, 15% 100%); */
@@ -49,11 +45,12 @@ body {
 
 section {
   height: 100vh;
-  background-color: #240554;
+  /* background: radial-gradient(50% 50% at 50% 50%, #0BE8F8 0%, #019AA8 100%); */
+  background-image: url("../images/BG-2.svg");
   background-size: cover;
-  background-repeat: none;
+  background-position: center;
+  /* background-repeat: none; */
   overflow: scroll;
-}
 
 /* PL QUESTIONS SECTION  */
 
@@ -79,12 +76,7 @@ section {
   padding: 2rem;
   width: 100%;
   height: 100%;
-  background: rgb(191, 17, 55);
-  background: linear-gradient(
-    160deg,
-    rgba(191, 17, 55, 1) 23%,
-    rgba(36, 5, 84, 1) 100%
-  );
+  background: #F7DF1E;
   border-radius: 0.8rem;
   box-shadow: 1px 5px 39px 0px rgba(36, 5, 84, 0.75);
   z-index: 10;
@@ -93,10 +85,11 @@ section {
 h3 {
   font-size: 1.8rem;
   font-weight: 300;
+  color: #000;
 }
 
 h3 > span {
-  color: #ebfd37;
+  color: #019AA8;
 }
 
 .main-question-container {
@@ -107,6 +100,7 @@ h2 {
   font-size: 2rem;
   padding-top: 2rem;
   align-self: center;
+  color: #000;
 }
 
 ul {
@@ -124,8 +118,8 @@ ul li {
   list-style-type: none;
   font-size: 1.4rem;
   font-weight: 600;
+  color: #000;
   /* background-color: #fff; */
-  color: #240554;
   text-align: center;
   cursor: pointer;
 }
@@ -137,6 +131,7 @@ ul li {
   list-style-type: none;
   padding: 1.4rem 4rem;
   border-radius: 1rem;
+  box-shadow: 0 5px 15px -5px rgba(36, 5, 84, 0.69);
 }
 
 .answer-list input[type="radio"] {
@@ -146,7 +141,10 @@ ul li {
 
 .answer-list input[type="radio"]:checked + label,
 .Checked + label {
-  background: #ebfd37;
+  color: #fff;
+  background: #019AA8;
+  
+
 }
 
 .answer-list label {
@@ -156,19 +154,21 @@ ul li {
 }
 
 .answer-list label:hover {
-  background: #f5ff87;
+  color: #019AA8;
+  background-color: rgb(228, 228, 228);
 }
 
 .submit-btn {
   font-family: inherit;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.4rem;
   background: none;
-  border: 2px solid #ecfd37;
+  color: #019AA8;
+  border: 2px solid ;
   padding: 1.2rem 0;
   box-shadow: 0 13px 31px -12px rgba(36, 5, 84, 0.69);
   border-radius: 0.8rem;
-  color: #ecfd37;
+  color: #019AA8;
   cursor: pointer;
   width: 100%;
   margin-bottom: 3rem;
@@ -176,13 +176,15 @@ ul li {
 }
 
 .submit-btn:hover {
-  color: #240554;
-  background-color: #ecfd37;
+  color: #fff;
+  border-color: #019AA8;
+  background-color: #019AA8;
   font-weight: 600;
 }
 
 p {
   font-size: 1.4rem;
+  color: #000;
 }
 
 .logo-box {
