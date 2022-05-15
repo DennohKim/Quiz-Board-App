@@ -72,7 +72,7 @@ const quiz = [
     quizNumber: "#08/10",
     question:
       "How do you round the number 7.25, to the nearest integer?",
-    a: "Math.round(7.25",
+    a: "Math.round(7.25)",
     b: "rnd(7.25)",
     c: "Math.rnd(7.25)",
     d: "round(7.25)",
@@ -178,21 +178,21 @@ submitBtn.addEventListener("click", function () {
     if (currentQuestion < quiz.length) {
       loadQuestion();
     } else if(currentQuestion < quiz.length || score >= 90) {
-      questionDiv.innerHTML = `<h2>You've scored <span style="color:#ecfd37">${score}/100 Pts</span></h2>
-      <p style="margin-top: 3rem;font-weight: 600;">Collect your PS5 award at our nearest stores!</p>
+      questionDiv.innerHTML = `<h2>You've scored <span style="color:#019AA8">${score}/100 Pts</span></h2>
+      <p style="margin-top: 3rem;font-weight: 600;">You must be Javascript Guru!</p>
           <button class="reload-btn"  onClick ="location.reload()">Reload</button>`;
     } else if(currentQuestion < quiz.length && score < 80 || score >= 60) {
-      questionDiv.innerHTML = `<h2>You've scored <span style="color: #ecfd37">${score}/100 Pts</span></h2>
-      <p style="margin-top: 3rem;font-weight: 600;">Keep watching the Premier League!</p>
+      questionDiv.innerHTML = `<h2>You've scored <span style="color: #019AA8">${score}/100 Pts</span></h2>
+      <p style="margin-top: 3rem;font-weight: 600;">Focus on the code!</p>
       <button class="reload-btn" "style="width: 5rem" onClick ="location.reload()">Reload</button>`;
     } else if(currentQuestion < quiz.length && score < 50 || score >= 20) {
-      questionDiv.innerHTML = `<h2>You've scored <span style="color:#ecfd37">${score}/100 Pts</span></h2>
+      questionDiv.innerHTML = `<h2>You've scored <span style="color:#019AA8">${score}/100 Pts</span></h2>
       <p style="margin-top: 3rem;font-weight: 600;">You can do better!</p>
       <button class="reload-btn" "style="width: 5rem" onClick ="location.reload()">Reload</button>`;
 
     }else {
-      questionDiv.innerHTML = `<h2>You've scored <span style="color:#ecfd37">${score}/100 Pts</span></h2>
-      <p style="margin-top: 3rem;font-weight: 600;">Kindly keep watching Afro Cinema!</p>
+      questionDiv.innerHTML = `<h2>You've scored <span style="color:#019AA8">${score}/100 Pts</span></h2>
+      <p style="margin-top: 3rem;font-weight: 600;">Keep Practicing!</p>
       <button class="reload-btn" "style="width: 5rem" onClick ="location.reload()">Reload</button>`;
 
     }
