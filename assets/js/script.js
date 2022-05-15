@@ -116,3 +116,10 @@ const answerA = document.getElementById("answer-a-label");
 const answerB = document.getElementById("answer-b-label");
 const answerC = document.getElementById("answer-c-label");
 const answerD = document.getElementById("answer-d-label");
+
+//Select buttons
+const submitBtn = document.getElementById("submit-button");
+
+let currentQuestion = 0;
+let score = 0;
+const currentQuestionDetails = quiz[currentQuestion];
