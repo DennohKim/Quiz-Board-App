@@ -123,3 +123,20 @@ const submitBtn = document.getElementById("submit-button");
 let currentQuestion = 0;
 let score = 0;
 const currentQuestionDetails = quiz[currentQuestion];
+
+loadQuestion();
+
+//Function that loads the quiz
+
+function loadQuestion() {
+  deselectAnswers();
+  const currentQuestionDetails = quiz[currentQuestion];
+
+  //returns text content in the current question
+  questionNumberElement.innerText = currentQuestionDetails.quizNumber;
+  questionElement.innerText = currentQuestionDetails.question;
+  answerA.innerText = currentQuestionDetails.a;
+  answerB.innerText = currentQuestionDetails.b;
+  answerC.innerText = currentQuestionDetails.c;
+  answerD.innerText = currentQuestionDetails.d;
+}
