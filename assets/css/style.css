@@ -1,0 +1,57 @@
+/* ==========
+FONT FAMILY
+=============*/
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700;800;900&display=swap");
+/* ==========
+COLORS
+
+#FFFFFF
+#240554
+#EBFD37
+#D7D7D7
+#F84995
+#BF1137
+#7D0C43
+#03DDB8
+
+
+=============*/
+
+/* ==========
+GLOBAL STYLES
+=============*/
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Jost";
+  color: #ffffff;
+  /* min-width: 900px; */
+  /* height: 100%; */
+  /* clip-path: polygon(85% 0, 100% 0, 100% 100%, 15% 100%); */
+
+  /* padding: 3rem; */
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+}
+
+section {
+  height: 100vh;
+  background-color: #240554;
+  background-image: url("../images/turqoise-bg.png");
+  background-size: cover;
+  background-repeat: none;
+  overflow: scroll;
+}
