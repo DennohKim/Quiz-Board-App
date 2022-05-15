@@ -179,7 +179,7 @@ submitBtn.addEventListener("click", function () {
       loadQuestion();
     } else if(currentQuestion < quiz.length || score >= 90) {
       questionDiv.innerHTML = `<h2>You've scored <span style="color:#019AA8">${score}/100 Pts</span></h2>
-      <p style="margin-top: 3rem;font-weight: 600;">You must be Javascript Guru!</p>
+      <p style="margin-top: 3rem;font-weight: 600;">You must be a Javascript Guru!</p>
           <button class="reload-btn"  onClick ="location.reload()">Reload</button>`;
     } else if(currentQuestion < quiz.length && score < 80 || score >= 60) {
       questionDiv.innerHTML = `<h2>You've scored <span style="color: #019AA8">${score}/100 Pts</span></h2>
