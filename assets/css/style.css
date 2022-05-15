@@ -185,3 +185,9 @@ ul li {
 p {
   font-size: 1.4rem;
 }
+
+.logo-box {
+  position: absolute;
+  bottom: 4vh;
+  right: 2vw;
+}
