@@ -1,11 +1,18 @@
 # Quiz Board App
-#### creating the project, 8/05/2022
+#### creating the project, 15/05/2022
 #### By *Dennis Kimathi*
 ## Description
-The Quiz board App if meant for Premier League fans to test there knowledge of the premier league.
+The Quiz board App if meant for High School Students learning Javascript.
 
 ## User Stories
+1. As a user, I want to see the multi-choice questions when the website loads. You will create the multi-choice questions to be answered on the website. Each question should have a number of points awarded when scored right.
+2. As a user, I want to select the answer which I think is correct from the webpage.
+3. As a user, I want to submit my answers when I'm done taking the quiz.
+4. As a user, I want to get the results of what I scored after submitting my answers on the website. 
 
+## Figma Design
+
+Use the link to find the project design for the project
 ## Setup/Installation Requirements
 To access this project on your local files, you can clone it using these steps
 1. Open your terminal
@@ -18,7 +25,7 @@ git clone https://github.com/DennohKim/Quiz-Board-App.git
 ## Known Bugs
 {Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
 ## Technologies Used
-{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
+{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML, CSS & JavaScript . If you did something really cool using only HTML, point that out.}
 ## Support and contact details
 {Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
 ### License
