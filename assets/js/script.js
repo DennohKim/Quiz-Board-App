@@ -101,3 +101,18 @@ const quiz = [
 
 //Select the quiz div
 const questionDiv = document.getElementById("question-container");
+
+//Select the question number
+const questionNumberElement = document.getElementById("question-number");
+
+//Select the question
+const questionElement = document.getElementById("question");
+
+//Select an answer element
+const answerElements = document.querySelectorAll(".answer");
+
+//Select the each answer
+const answerA = document.getElementById("answer-a-label");
+const answerB = document.getElementById("answer-b-label");
+const answerC = document.getElementById("answer-c-label");
+const answerD = document.getElementById("answer-d-label");
