@@ -175,3 +175,9 @@ ul li {
   margin-bottom: 3rem;
   text-align: center;
 }
+
+.submit-btn:hover {
+  color: #240554;
+  background-color: #ecfd37;
+  font-weight: 600;
+}
