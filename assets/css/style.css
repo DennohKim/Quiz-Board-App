@@ -167,7 +167,7 @@ ul li {
   color: #019AA8;
   border: 2px solid ;
   padding: 1.2rem 0;
-  box-shadow: 0 13px 31px -12px rgba(36, 5, 84, 0.69);
+  box-shadow: 0 5px 15px -5px rgba(36, 5, 84, 0.69);
   border-radius: 0.8rem;
   color: #019AA8;
   cursor: pointer;
@@ -213,11 +213,11 @@ p {
   font-weight: 400;
   font-size: 1.4rem;
   background: none;
-  border: 2px solid #ecfd37;
+  border: 2px solid #019AA8;
   padding: 1.2rem 0;
-  box-shadow: 0 13px 31px -12px rgba(36, 5, 84, 0.69);
+  box-shadow: 0 5px 15px -5px rgba(36, 5, 84, 0.69);
   border-radius: 0.8rem;
-  color: #ecfd37;
+  color: #019AA8;
   cursor: pointer;
   width: 30rem;
   margin: 5rem 0;
@@ -225,8 +225,8 @@ p {
 }
 
 .reload-btn:hover {
-  color: #240554;
-  background-color: #ecfd37;
+  color: #fff;
+  background-color: #019AA8;
   font-weight: 600;
 }
 
