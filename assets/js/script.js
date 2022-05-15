@@ -158,3 +158,43 @@ function getSelected() {
 
   return answer;
 }
+
+//Show next Question
+submitBtn.addEventListener("click", function () {
+    //if answer is selected increment the score
+    const correctAnswer = getSelected();
+    console.log(correctAnswer);
+    // console.log('Score now', score)
+    if (correctAnswer) {
+      if (correctAnswer === quiz[currentQuestion].correct) {
+        score += 10;
+      
+  
+        console.log("Score now", score);
+      }
+      //Next question and increment score based on conditions
+    currentQuestion++; 
+
+    if (currentQuestion < quiz.length) {
+      loadQuestion();
+    } else if(currentQuestion < quiz.length || score >= 90) {
+      questionDiv.innerHTML = `<h2>You've scored <span style="color:#ecfd37">${score}/100 Pts</span></h2>
+      <p style="margin-top: 3rem;font-weight: 600;">Collect your PS5 award at our nearest stores!</p>
+          <button class="reload-btn"  onClick ="location.reload()">Reload</button>`;
+    } else if(currentQuestion < quiz.length && score < 80 || score >= 60) {
+      questionDiv.innerHTML = `<h2>You've scored <span style="color: #ecfd37">${score}/100 Pts</span></h2>
+      <p style="margin-top: 3rem;font-weight: 600;">Keep watching the Premier League!</p>
+      <button class="reload-btn" "style="width: 5rem" onClick ="location.reload()">Reload</button>`;
+    } else if(currentQuestion < quiz.length && score < 50 || score >= 20) {
+      questionDiv.innerHTML = `<h2>You've scored <span style="color:#ecfd37">${score}/100 Pts</span></h2>
+      <p style="margin-top: 3rem;font-weight: 600;">You can do better!</p>
+      <button class="reload-btn" "style="width: 5rem" onClick ="location.reload()">Reload</button>`;
+
+    }else {
+      questionDiv.innerHTML = `<h2>You've scored <span style="color:#ecfd37">${score}/100 Pts</span></h2>
+      <p style="margin-top: 3rem;font-weight: 600;">Kindly keep watching Afro Cinema!</p>
+      <button class="reload-btn" "style="width: 5rem" onClick ="location.reload()">Reload</button>`;
+
+    }
+  }
+});
