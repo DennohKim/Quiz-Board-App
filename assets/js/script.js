@@ -98,3 +98,6 @@ const quiz = [
     },
   ];
   
+
+//Select the quiz div
+const questionDiv = document.getElementById("question-container");
