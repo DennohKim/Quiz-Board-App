@@ -42,7 +42,7 @@ Figma Design -[Quiz-Board-App-Design](https://www.figma.com/file/0GcFH0dKphS0g2L
 
  ### Installation Process
  ****
-* Clone to thir repo : git clone https://github.com/Albert-Byrone/delani.git
+* Clone to thir repo : git clone https://github.com/DennohKim/Quiz-Board-App.git
 * Unzip the downloaded files in a folder of choice.
 * Open the index file from the zipped file with any browser.
  ****
