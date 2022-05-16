@@ -17,7 +17,7 @@
 
 
 ## Description
-<p>The Quiz board App iS meant for High School Students learning Javascript. The quiz will help them grasp Javascript concepts.</p>
+<p>The Quiz board App is meant for High School Students learning Javascript. The quiz will help them grasp Javascript concepts.</p>
 
 [Go Back to the top](#quiz-board-app)
 ## Features
@@ -30,7 +30,7 @@
 
 ## Design Driven Development
 
-Use the link to find the project design for the project.
+Use the link to find the project design.
 
 Figma Design -[Quiz-Board-App-Design](https://www.figma.com/file/0GcFH0dKphS0g2L7pa5KNl/Quiz-Board-Design-(Copy)?node-id=109%3A396)
 
@@ -83,5 +83,5 @@ SOFTWARE.
 ## Authors Info
 Slack Profile - [Dennis Kimathi](https://app.slack.com/client/T0101L740P4/C010E0J8BRA/user_profile/U03CYMSV3DZ)
 
-Linked - [Dennis Kimathi](https://www.linkedin.com/in/dennis-kimathi-46326711b/)
+LinkedIn - [Dennis Kimathi](https://www.linkedin.com/in/dennis-kimathi-46326711b/)
 [Go Back to the top](#quiz-board-app)
